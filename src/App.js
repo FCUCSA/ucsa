@@ -6,10 +6,10 @@ import StaffList from "./components/staff/StaffList"; // додай імпорт
 import ReportsPage from "./components/reports/ReportsPage";
 
 if (
-  window.location.pathname === "/uksa" &&
+  window.location.pathname === "/ucsa" &&
   (window.location.hash === "" || window.location.hash === "#")
 ) {
-  window.location.replace("/uksa/#/");
+  window.location.replace("/ucsa/#/");
 }
 
 function App() {
