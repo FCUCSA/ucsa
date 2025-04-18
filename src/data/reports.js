@@ -15,6 +15,10 @@ const reports = [
     name: "Фінансові результати",
     file: "finansovi-rezultati_3.pdf",
   },
+  {
+    name: "Звіт про рух грошових коштів доповнений",
+    file: "Звіт_про_рух_грошових_коштів_доповнений.pdf",
+  },
 ];
 
 export default reports;
