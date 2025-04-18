@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PlayersList from "./components/players/PlayerList";
 import HomePage from "./components/home/HomePage";
-import StaffList from "./components/staff/StaffList"; // додай імпорт
+import StaffList from "./components/staff/StaffList";
 import ReportsPage from "./components/reports/ReportsPage";
 
 if (
