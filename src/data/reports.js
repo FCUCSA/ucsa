@@ -17,7 +17,7 @@ const reports = [
   },
   {
     name: "Звіт про рух грошових коштів доповнений",
-    file: "Звіт_про_рух_грошових_коштів_доповнений.pdf",
+    file: "zvit-pro-ruh-groshovih-koshtiv-dopovnenij_14.pdf",
   },
 ];
 
