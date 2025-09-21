@@ -13,7 +13,7 @@ const staff = [
     name: "Іван Валерійович",
     position: "Тренер воротарів",
     birthDate: "14.02.1987",
-    photo: "images/staff/Bandura_O.jpg",
+    photo: "images/staff/Ostapov_I.jpg",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const staff = [
     name: "Михайло Михайлович",
     position: "Фізіотерапевт",
     birthDate: "30.09.1998",
-    photo: "images/staff/Frenis_M",
+    photo: "images/staff/Frenis.jpg",
   },
   {
     id: 3,
