@@ -1,4 +1,4 @@
-[
+const players = [
   {
     id: 1,
     lastName: "Амілаханов",
@@ -256,3 +256,5 @@
     photo: "images/players/Yuvhimetc.jpg"
   }
 ]
+
+export default players;
