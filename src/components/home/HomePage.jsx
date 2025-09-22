@@ -85,7 +85,7 @@ const HomePage = () => {
                 участь у суспільно важливих ініціативах, зміцнюючи зв’язок з
                 вболівальниками та місцевими громадами.
               </p>
-              <ul className="list-unstyled text-secondary fs-6">
+              <ul className="list-unstyled text-secondary fs-5">
                 <li>
                   <strong>Рік заснування:</strong> 2015
                 </li>
