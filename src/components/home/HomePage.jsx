@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { FaInstagram } from "react-icons/fa";
 import stadium from "../../assets/stadium.png";
 import FCLogo from "../../assets/Емблема_ФК_ЮКСА_Київ.svg.webp";
-import heroBg from "../../assets/image.jpg";
+import heroBg from "../../assets/ucsa_photo@2x.webp";
 
 const HomePage = () => {
   return (

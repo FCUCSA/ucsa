@@ -17,14 +17,14 @@ const staff = [
   },
   {
     id: 3,
-    lastName: "Козир",
-    name: "Денис Антонович",
+    lastName: "Кватирук",
+    name: "Геннадій Степанович",
     position: "Лікар",
-    birthDate: "26.10.1997",
-    photo: "images/staff/Kozir_D.jpg",
+    birthDate: "27.11.1968",
+    photo: "images/staff/Kvatyruk_G.jpg", // TODO: додати фото
   },
   {
-    id: 3,
+    id: 4,
     lastName: "Кузьменко",
     name: "Антон Миколайович",
     position: "Масажист",
@@ -32,7 +32,7 @@ const staff = [
     photo: "images/staff/Kuzmenko_A.jpg",
   },
   {
-    id: 3,
+    id: 5,
     lastName: "Френіс",
     name: "Михайло Михайлович",
     position: "Фізіотерапевт",
@@ -40,15 +40,15 @@ const staff = [
     photo: "images/staff/Frenis.jpg",
   },
   {
-    id: 3,
-    lastName: "Алмейда",
-    name: "Бруно Пабло Гомес Де",
+    id: 6,
+    lastName: "Слобода",
+    name: "Ігор Володимирович",
     position: "Адміністратор",
-    birthDate: "16.06.1993",
-    photo: "images/staff/Almeyda_B.jpg",
+    birthDate: "24.07.1990",
+    photo: "images/staff/Sloboda_I.jpg", // TODO: додати фото
   },
   {
-    id: 3,
+    id: 7,
     lastName: "Фортес Родрігес",
     name: "Фабрісіо",
     position: "Адміністратор",
@@ -56,7 +56,7 @@ const staff = [
     photo: "images/staff/Fortes_R_F.jpg",
   },
   {
-    id: 3,
+    id: 8,
     lastName: "Люлька",
     name: "Сергій Миколайович",
     position: "Асистент головного тренера",

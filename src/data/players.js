@@ -1,22 +1,7 @@
 const players = [
   {
     id: 1,
-    lastName: "Амілаханов",
-    name: "Тимур Сергійович",
-    position: "Півзахисник",
-    birthDate: "21.09.1994",
-    photo: "images/players/Amilahanov.jpg"
-  },
-  {
-    id: 2,
-    lastName: "Балаба",
-    name: "Назар Андрійович",
-    position: "Захисник",
-    birthDate: "10.05.2005",
-    photo: "images/players/Balaba.jpg"
-  },
-  {
-    id: 3,
+    number: 1,
     lastName: "Баранцов",
     name: "Кирило Сергійович",
     position: "Воротар",
@@ -24,15 +9,17 @@ const players = [
     photo: "images/players/Barantsov.jpg"
   },
   {
-    id: 4,
-    lastName: "Васін",
-    name: "Максим Вікторович",
-    position: "Півзахисник",
-    birthDate: "26.05.2008",
-    photo: "images/players/Vasin.jpg"
+    id: 2,
+    number: 98,
+    lastName: "Гехейру Рібейру Дос Сантос",
+    name: "Венді",
+    position: "Нападник",
+    birthDate: "30.03.1998",
+    photo: "images/players/Gehayru_Ribeyru_Dos_Santos.jpg", // TODO: додати фото
   },
   {
-    id: 5,
+    id: 3,
+    number: 21,
     lastName: "Гонсалвеш дос Сантос",
     name: "Матеус",
     position: "Півзахисник",
@@ -40,31 +27,8 @@ const players = [
     photo: "images/players/Gonsalvesh_dos_Santos.jpg"
   },
   {
-    id: 6,
-    lastName: "Де Жесус Ліма",
-    name: "Бруну",
-    position: "Нападник",
-    birthDate: "07.04.2004",
-    photo: "images/players/De_Jesus_Lima.jpg"
-  },
-  {
-    id: 7,
-    lastName: "Де Соуза Насіменто",
-    name: "Гільерме",
-    position: "Захисник",
-    birthDate: "03.09.2003",
-    photo: "images/players/De_Souza_Nasimento.jpg"
-  },
-  {
-    id: 8,
-    lastName: "Де Соуза Фрія Філу",
-    name: "Ромаріу",
-    position: "Півзахисник",
-    birthDate: "20.09.1993",
-    photo: "images/players/De_Souza_Fria_Filu.jpg"
-  },
-  {
-    id: 9,
+    id: 4,
+    number: 47,
     lastName: "Дзюбук",
     name: "Ілля Русланович",
     position: "Півзахисник",
@@ -72,7 +36,17 @@ const players = [
     photo: "images/players/Dzybuk.jpg"
   },
   {
-    id: 10,
+    id: 5,
+    number: 11,
+    lastName: "Емере",
+    name: "Антоній Даніель Чуквебука",
+    position: "Півзахисник",
+    birthDate: "27.05.2002",
+    photo: "images/players/Emere_A.jpg", // TODO: додати фото
+  },
+  {
+    id: 6,
+    number: 5,
     lastName: "Євдокимов",
     name: "Антон Вікторович",
     position: "Півзахисник",
@@ -80,7 +54,8 @@ const players = [
     photo: "images/players/Evdokimov.jpg"
   },
   {
-    id: 11,
+    id: 7,
+    number: 28,
     lastName: "Жданович",
     name: "Олексій Сергійович",
     position: "Захисник",
@@ -88,15 +63,8 @@ const players = [
     photo: "images/players/Zhdanovich.jpg"
   },
   {
-    id: 12,
-    lastName: "Жеребецький",
-    name: "Матвій Станіславович",
-    position: "Півзахисник",
-    birthDate: "15.06.2008",
-    photo: "images/players/Zherebetskiy.jpg"
-  },
-  {
-    id: 13,
+    id: 8,
+    number: 9,
     lastName: "Задніпрянець",
     name: "Богдан Дмитрович",
     position: "Півзахисник",
@@ -104,7 +72,8 @@ const players = [
     photo: "images/players/Zadnimpryanets.jpg"
   },
   {
-    id: 14,
+    id: 9,
+    number: 14,
     lastName: "Західний",
     name: "Павло Григорович",
     position: "Захисник",
@@ -112,7 +81,8 @@ const players = [
     photo: "images/players/Zahidniy.jpg"
   },
   {
-    id: 15,
+    id: 10,
+    number: 73,
     lastName: "Кастро Гонсалез",
     name: "Пабло Рамон",
     position: "Півзахисник",
@@ -120,7 +90,8 @@ const players = [
     photo: "images/players/Castro_Gonsalez.jpg"
   },
   {
-    id: 16,
+    id: 11,
+    number: 8,
     lastName: "Кіреєв",
     name: "Андрій Петрович",
     position: "Захисник",
@@ -128,7 +99,8 @@ const players = [
     photo: "images/players/Kiriev.jpg"
   },
   {
-    id: 17,
+    id: 12,
+    number: 99,
     lastName: "Ковальов",
     name: "Артем Андрійович",
     position: "Воротар",
@@ -136,7 +108,8 @@ const players = [
     photo: "images/players/Kovalyov.jpg"
   },
   {
-    id: 18,
+    id: 13,
+    number: 18,
     lastName: "Лебедєв",
     name: "Сергій Віталійович",
     position: "Півзахисник",
@@ -144,15 +117,17 @@ const players = [
     photo: "images/players/Lebedyev.jpg"
   },
   {
-    id: 19,
-    lastName: "Мендес Ріела",
-    name: "Ікару",
-    position: "Нападник",
-    birthDate: "13.11.2005",
-    photo: "images/players/Mendes_Riela.jpg"
+    id: 14,
+    number: 87,
+    lastName: "Михайленко",
+    name: "Дмитро Денисович",
+    position: "Півзахисник",
+    birthDate: "04.12.2009",
+    photo: "images/players/Mikhaylenko_D.jpg", // TODO: додати фото
   },
   {
-    id: 20,
+    id: 15,
+    number: 17,
     lastName: "Монтейру Да Сілва",
     name: "Педро Акасіу",
     position: "Півзахисник",
@@ -160,23 +135,35 @@ const players = [
     photo: "images/players/Monteyru_Da_Silva.jpg"
   },
   {
-    id: 21,
-    lastName: "Петрук",
-    name: "Нікіта Сергійович",
+    id: 16,
+    number: 38,
+    lastName: "Немецков",
+    name: "Микита Ігорович",
     position: "Півзахисник",
-    birthDate: "08.06.2003",
-    photo: "images/players/Petruk.jpg"
+    birthDate: "19.09.2006",
+    photo: "images/players/Nemetskov_M.jpg", // TODO: додати фото
   },
   {
-    id: 22,
-    lastName: "Поправка",
-    name: "Єгор Юрійович",
+    id: 17,
+    number: 15,
+    lastName: "Осман",
+    name: "Олександр Вікторович",
     position: "Захисник",
-    birthDate: "12.02.2004",
-    photo: "images/players/Popravka.jpg"
+    birthDate: "18.04.1996",
+    photo: "images/players/Osman_O.jpg", // TODO: додати фото
   },
   {
-    id: 23,
+    id: 18,
+    number: 32,
+    lastName: "Петько",
+    name: "Сергій Юрійович",
+    position: "Півзахисник",
+    birthDate: "23.01.1994",
+    photo: "images/players/Petko_S.jpg", // TODO: додати фото
+  },
+  {
+    id: 19,
+    number: 12,
     lastName: "Постемський",
     name: "Олександр Віталійович",
     position: "Воротар",
@@ -184,7 +171,8 @@ const players = [
     photo: "images/players/Postemskiy.jpg"
   },
   {
-    id: 24,
+    id: 20,
+    number: 45,
     lastName: "Сабієв",
     name: "Дмитро Олександрович",
     position: "Захисник",
@@ -192,7 +180,8 @@ const players = [
     photo: "images/players/Sabiev.jpg"
   },
   {
-    id: 25,
+    id: 21,
+    number: 3,
     lastName: "Сидоренко",
     name: "Данило Павлович",
     position: "Захисник",
@@ -200,7 +189,8 @@ const players = [
     photo: "images/players/Sidorenko.jpg"
   },
   {
-    id: 26,
+    id: 22,
+    number: 89,
     lastName: "Синьогуб",
     name: "Олег Анатолійович",
     position: "Захисник",
@@ -208,7 +198,8 @@ const players = [
     photo: "images/players/Sinyogub.jpg"
   },
   {
-    id: 27,
+    id: 23,
+    number: 7,
     lastName: "Ситников",
     name: "Микита Олегович",
     position: "Нападник",
@@ -216,7 +207,8 @@ const players = [
     photo: "images/players/Sitnikov.jpg"
   },
   {
-    id: 28,
+    id: 24,
+    number: 78,
     lastName: "Сілва Сантос Дос Сантос",
     name: "Венделл",
     position: "Нападник",
@@ -224,7 +216,8 @@ const players = [
     photo: "images/players/Silva_Santos_Dos_Santos.jpg"
   },
   {
-    id: 29,
+    id: 25,
+    number: 10,
     lastName: "Сьєбен Пагліаріні",
     name: "Матеус",
     position: "Півзахисник",
@@ -232,7 +225,8 @@ const players = [
     photo: "images/players/Syeben_Pagliarini.jpg"
   },
   {
-    id: 30,
+    id: 26,
+    number: 20,
     lastName: "Харченко",
     name: "Матвій Анатолійович",
     position: "Півзахисник",
@@ -240,21 +234,23 @@ const players = [
     photo: "images/players/Harchenko.jpg"
   },
   {
-    id: 31,
-    lastName: "Ховайко",
-    name: "Кирило Юрійович",
+    id: 27,
+    number: 97,
+    lastName: "Шевчук",
+    name: "Олександр Ігорович",
     position: "Півзахисник",
-    birthDate: "12.02.2004",
-    photo: "images/players/Hovayko.jpg"
+    birthDate: "19.05.2004",
+    photo: "images/players/Shevchuk_O.jpg", // TODO: додати фото
   },
-   {
-    id: 32,
+  {
+    id: 28,
+    number: 6,
     lastName: "Ювхимець",
     name: "Роман Володимирович",
     position: "Півзахисник",
     birthDate: "16.03.2003",
     photo: "images/players/Yuvhimetc.jpg"
   }
-]
+];
 
 export default players;
